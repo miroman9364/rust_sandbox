@@ -12,4 +12,9 @@ If you haven't already done so, you need to [install Rust language](https://rust
 - Prettier - Code formatter [esbenp.prettier-vscod](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - Code Spell Checker ([streetsidesoftware.code-spell-checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker))
 
+## Timestamps
+
+1. [Basics to create and compile a Rust file.]( https://youtu.be/zF34dRivLOw?t=375)
+2. [Initialize a project with `cargo`.](https://youtu.be/zF34dRivLOw?t=467)
+
 [//]: # (cSpell:ignore Traversy, serayuzgur, tamasfe,)
