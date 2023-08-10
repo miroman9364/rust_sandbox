@@ -1,7 +1,9 @@
-// https://youtu.be/zF34dRivLOw?t=1166
-// Variables hold primitive data or references to data.
-// Variables are immutable by default.
-// Rust is a block-scoped language.
+/* https://youtu.be/zF34dRivLOw?t=1166
+
+Variables hold primitive data or references to data.
+Variables are immutable by default.
+Rust is a block-scoped language.
+*/
 
 pub fn run() {
     let name = "Mike";
