@@ -1,4 +1,5 @@
-// https://youtu.be/zF34dRivLOw?t=467
+mod print;
+
 fn main() {
-    println!("Hello, world!");
+    print::run();
 }
