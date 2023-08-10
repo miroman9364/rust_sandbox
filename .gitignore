@@ -1,1 +1,5 @@
+# ignore local user files
+*.user.*
+
+# ignore Rust target/build directory
 /target
