@@ -56,9 +56,4 @@ pub fn run() {
     println!("slice: {:?}, len: {}", slice, slice.len());
     assert_ne!(3, slice.len());
     assert_eq!(2, slice.len());
-
-    // TODO: can't do the following, find out how
-    // let slice: &[i32] = &mut_numbers;
-    // slice[4] = 5000;
-    // assert_eq!(5000, mut_numbers[4]);
 }
