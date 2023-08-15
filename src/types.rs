@@ -57,8 +57,10 @@ pub fn run() {
     // bool inferred from expression
     let is_greater = 10 < 5;
 
-    // single quoted character is inferred as `char`
+    // compiler infers `char` for single-quoted values; value must be a single unicode character
     let a1 = 'a';
+
+    // compiler infers `char` for single-quoted values containing unicode code point; value must be a single code point
     let face = '\u{1f600}';
 
     println!("{:?}", (x, y, z, is_active, is_greater, a1, face))
