@@ -6,6 +6,8 @@ Fixed length list of elements of the same type.
 use std::mem;
 
 pub fn run() {
+    println!("!!!\nArrays\n!!!");
+
     let numbers: [i32; 5] = [1, 2, 3, 4, 5];
 
     println!("{:?}", numbers);
@@ -14,7 +16,7 @@ pub fn run() {
     assert_eq!(3, numbers[2]);
 
     // iterate
-    for number in numbers {
+    for number in numbers.iter() {
         println!("{}", number);
     }
 
@@ -46,7 +48,7 @@ pub fn run() {
     assert_eq!(mem::size_of::<i32>() * numbers.len(), mem::size_of_val(&numbers));
 
     // get a slice of the array (i.e., a part of it), for example, get a slice that is all of the array
-    let slice1: &[i32] = &numbers[1..3];
+    let slice1: &[i32] = &numbers;
     println!("slice1: {:?}, len: {}", slice1, slice1.len());
 
     // specify the first index and the last + 1, i.e., left closed, right open, [1..3)
